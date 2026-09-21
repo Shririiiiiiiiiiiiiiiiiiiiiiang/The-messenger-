@@ -1,0 +1,12 @@
+PRICES HERE ARE JUST FOR 1 PIECE
+
+Catagory,Component,Specification,Quantity,Notes,Price(INR),Price(USD),Buy link
+Controller,ESP32 DEV Board,ESP32-WROOM-32D,2,Main conrol one piece per device,₹679,$7.09,https://robu.in/product/esp32-wroom-32d-iot-development-doard-module-for-arduino/
+Radio,NRF24L01 + PA + LNA,2.4GHz NRF24L01+PA+LNA SMA Wireless Transceiver Antenna,2,Radio talk(1 per device),₹152,$1.59,https://robu.in/product/2-4ghz-nrf24l01palna-sma-antenna-wireless-transceiver-communication-module-1km/
+Display,OLED,0.96 inch 128x64 SSD1306 IIC Interface 4 Pin OLED Module - Blue Color Screen,2,Display(1 per device),₹239,$2.49,https://robu.in/product/0-96-inch-128x64-ssd1306-iic-interface-4-pin-oled-module-blue-color-screen/
+power,Battery,18650 Li-ion cell,4,Power source(2 per device connecetd in parallel),₹409,$4.27,https://robu.in/product/lg-18650-mj1-3400mah-3c-li-ion-battery/
+power,Battery holder,18650 SMD/SMT High-Quality Single Battery Holder,4,bttery holder(1 for each battery which means 2 in one device),₹36,$0.38,https://robu.in/product/18650-battery-holder-smd-smt/
+power,Battery power switch,Power Switch- SW05,2,main power switch(1 per device),₹12,$0.13,https://robu.in/product/power-switch-sw05/
+power,Boost converter,MT3608 2A Max DC-DC Step Up Power Module Booster Power Module,2,boost to regulated 5V for perfect 5v to the esp32(1 per device),₹33,$0.34,https://robu.in/product/mt3608-2a-max-dc-dc-step-up-power-module-booster-power-module/
+connection,Female header,Pack of 50 Female Pin Headers 2.54mm Pitch 1X 5Pins Single Row Female PCB Header Connector,Pack of 50(direct amazon),for soldering into the pcb so i can cnnect my hw 200 & esp32,₹1464,$15.28,https://www.amazon.in/Female-Headers-2-54mm-Single-Connector/dp/B08T67RT8P
+Radio,Nrf adapter,HW-200 3.3V Adapter Board for 24L01 Wireless Module,2,to give stable 3.3v to nrf ((1 per device),₹37,$0.39,https://robu.in/product/3-3v-adapter-board-for-24l01-wireless-module/
