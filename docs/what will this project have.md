@@ -14,7 +14,7 @@
 - one "." dot
 - one "-" dash
 - one "space"
-- 4 triangle or rectangle shaped buttons to navigate when in text mode and a center button for send(works for both morse and text)
+- 1 5 way switch 
 - 1 toggle switch for to change in morse or text 
 - 1 backspace button
 

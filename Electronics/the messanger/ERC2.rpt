@@ -1,0 +1,103 @@
+ERC report (2026-09-23T17:42:57, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(1450 mils, 2500 mils): Symbol hw200restmo,mi,. Pin 6 [Pin_6, Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2750 mils, 4350 mils): Symbol U2 Pin 2 [VCC, Power input, Line]
+[duplicate_reference]: Duplicate items 220ohm?
+
+    ; error
+    @(4700 mils, 6500 mils): Symbol 220ohm [R]
+    @(2400 mils, 6500 mils): Symbol 220ohm [R]
+[unannotated]: Item not annotated: 220ohm?
+    ; error
+    @(4700 mils, 6500 mils): Symbol 220ohm [R]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 2700 mils): Symbol U1 Pin 3 [EN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5400 mils, 2700 mils): Symbol U1 Pin 3 [EN, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 2900 mils): Symbol U1 Pin 4 [SENSOR_VP, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5400 mils, 2900 mils): Symbol U1 Pin 4 [SENSOR_VP, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 3000 mils): Symbol U1 Pin 5 [SENSOR_VN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(5400 mils, 3000 mils): Symbol U1 Pin 5 [SENSOR_VN, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 3900 mils): Symbol U1 Pin 21 [SDO/SD0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 4000 mils): Symbol U1 Pin 22 [SDI/SD1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 4100 mils): Symbol U1 Pin 17 [SHD/SD2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 4200 mils): Symbol U1 Pin 18 [SWP/SD3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 4300 mils): Symbol U1 Pin 20 [SCK/CLK, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(5400 mils, 4400 mils): Symbol U1 Pin 19 [SCS/CMD, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6000 mils, 2500 mils): Symbol U1 Pin 2 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(6000 mils, 2500 mils): Symbol U1 Pin 2 [VDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(6000 mils, 5300 mils): Symbol U1 Pin 1 [GND, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6600 mils, 2700 mils): Symbol U1 Pin 25 [IO0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6600 mils, 2800 mils): Symbol U1 Pin 35 [TXD0/IO1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6600 mils, 2900 mils): Symbol U1 Pin 24 [IO2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6600 mils, 3000 mils): Symbol U1 Pin 34 [RXD0/IO3, Bidirectional, Line]
+[multiple_net_names]: Both 3v3andvcc and led to res to 3v3 are attached to the same items; 3v3andvcc will be used in the netlist
+    ; warning
+    @(4750 mils, 3200 mils): Label '3v3andvcc'
+    @(5200 mils, 3750 mils): Label 'led to res to 3v3'
+[multiple_net_names]: Both HW200 VCC to 5v and hw200vcc to 5v are attached to the same items; HW200 VCC to 5v will be used in the netlist
+    ; warning
+    @(3600 mils, 2000 mils): Label 'HW200 VCC to 5v'
+    @(5350 mils, 2200 mils): Label 'hw200vcc to 5v'
+[similar_labels]: Labels are similar (lower/upper case difference only)
+    ; warning
+    @(6000 mils, 7150 mils): Label 'OLED to gnd'
+    @(2750 mils, 5250 mils): Label 'OLED to GND'
+[multiple_net_names]: Both lmid and mid are attached to the same items; lmid will be used in the netlist
+    ; warning
+    @(6700 mils, 4600 mils): Label 'lmid'
+    @(7750 mils, 3650 mils): Label 'mid'
+[multiple_net_names]: Both Battery to gnd and dash to gnd are attached to the same items; Battery to gnd will be used in the netlist
+    ; warning
+    @(4150 mils, 1450 mils): Label 'Battery to gnd'
+    @(8800 mils, 1600 mils): Label 'dash to gnd'
+
+ ** ERC messages: 28  Errors 23  Warnings 5
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
